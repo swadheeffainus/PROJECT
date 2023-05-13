@@ -7,13 +7,14 @@
     <title>Project</title>
      <link rel="stylesheet" href="/bootstrap-5.3.0-alpha3-dist/css/bootstrap.css"> 
      <link rel="stylesheet" href="html.css" type="text/css">
+     <script src="new.js"></script>
 </head>
     <header>
         <h1 class="name">Project</h1>
         
     <div class="nav">   
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">Features</a>
+            <button id="ft" onclick="scroll()"><a class="navbar-brand"  >Features</a></button>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,7 +24,7 @@
                   <a id="nav" class="nav-link" href="#">Home <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                  <a id="nav" class="nav-link" href="#">Customers</a>
+                  <a id="nav" class="nav-link" href="#">Photos</a>
                 </li>
                 <li class="nav-item">
                   <a id="nav" class="nav-link" href="#">About us</a>
@@ -39,7 +40,7 @@
         <button type="button" class="button">Book a demo</button>
     </div>
     </header>
-    <body class="background">
+    <body id="scrolldown" class="background">
         <div class="parent">
             <h2 class="business">We help you to grow </h2>
        </div>
@@ -67,12 +68,89 @@
                 <button type="button" class="button1">meet our team</button>
                 </div>
                 </div>
+               <div class="back"> 
+               <div class="model">
+                <h1>
+                  Features
+                </h1>
+               </div>
+               <ul class="edit">
+                <li>
+                  Economic Activity 
+                </li>
+                <li>
+                   Sale or Exchange of Goods and Services.
+                </li>
+                <li>
+                  Regularity in Dealings.
+                </li>
+                <li>
+                  Profit Earning. 
+                </li>
+                <li>
+                  Risk Factor.
+                </li>
+                <li>
+                  Uncertainty of Returns.
+                </li>
+                <li>
+                  Legal Activity
+                </li>
+               </ul>  
+               <ul class="editing">
+                <li>
+                  Deals in Goods and Services
+                </li>
+                <li>
+                  Sale or Exchange of Goods and Services
+                </li>
+                <li>
+                  Regular Exchange of Goods and Services
+                </li>
+                <li>
+                  Requires Investment
+                </li>
+                <li>
+                  Aims at Earning Profit
+                </li>
+                
+               </ul> 
+             
+               <h4 class="type">Ownership: They have a single owner. So it is also known as a sole proprietorship.<br> Management: All the management works are controlled by the owner.<br> Limited Reach: They have restricted area of operation</h4>
+             <h3 class="opp">3main type of business</h3>
+             <h4 class="op">The most common forms of business are the sole proprietorship, partnership, corporation, and S corporation</h4>
+             <h5 class="colow">
+              A feature is a statement of fact about a good or service that a company is promoting. However, features do not entice customers to part with their money.
 
-           
-        
+             </h5>
+               </div>
+               <div class="ba">
+                <h1 class="in">
+                  Photos
+                </h1>
+                <div>
+              
+                  <img class="ima1" src="image/b1 (1).jpg" alt="">
+                  <img class="ima2" src="image/b1 (1).webp" alt="">
+                  <img class="ima3" src="image/b1 (2).jpeg" alt="">
+                  <img class="ima4" src="image/b1 (3).jpeg" alt="">
+                  <img class="ima5" src="image/b1 (4).jpeg" alt="">
+                  <img class="ima6" src="image/b1 (5).jpeg" alt="">
+                  
+                </div>
+                <div>
+                  <h4 class="ff">
+                  These photos are related to business any content, information or other materials (including their associated Intellectual Property Rights) provided by Business to Find Touch to provide the Deal Services.
+                  </h4>
+                </div>
+               </div>
             
-        
-    
     <script src="/bootstrap-5.3.0-alpha3-dist/js/bootstrap.js"></script>
+    <script>
+      let ft = document.getElementById("ft")
+      ft.addEventListener('click', scroll )
+        //console.log("gfhrtdyheujsiwcg")
+      
+    </script>
 </body>
 </html>
