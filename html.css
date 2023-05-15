@@ -230,3 +230,58 @@
     color: white;
     margin-left: 3%;
 }
+.back1{
+    background-image: url(image/coffee-792113_960_720.jpg);
+    background-size: cover;
+}
+.ste{
+    margin-left: 3%;
+    color: black;
+}
+.ff2{
+  
+    margin-left: 3%;
+    margin-top: 3%;
+    color: red;
+    
+}
+.ff3{
+    color: white;
+    margin-left: 2%;
+}
+.ff4{
+    color: black;
+    margin-left: 3%;
+}
+.ff5{
+    background-image: url(image/OIP.jpeg);
+    background-size: cover;
+}
+.i1{
+    width: 40%;
+    margin-left: 5%;
+}
+.i2{
+    width: 40%;
+    margin-left: 7%;
+}
+.ff6{
+    color: black;
+    margin-left: 5%;
+}
+.ff9{
+    color: black;
+    margin-left: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ff7{
+    color: black;
+    margin-left: 35%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ff8{
+    color: black;
+    margin-left: 45%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -1%;
+}
